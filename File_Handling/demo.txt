@@ -1,0 +1,4 @@
+int fd = 0;
+    int iRet = 0;
+    char Arr[50] = {'\0'};
+    fd = open(FNAME,O_RDWR);
